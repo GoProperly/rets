@@ -155,3 +155,17 @@ def test_decode_time():
 def test_decode_date():
     assert _decode_date('2017-01-02T00:00:00.000', False) == datetime(2017, 1, 2, 0, 0, 0)
     assert _decode_date('2017-01-02', False) == datetime(2017, 1, 2, 0, 0, 0)
+
+
+def test_decode_decimal():
+    decoder = RecordDecoder([{
+        "SystemName": "randomField",
+        "DataType": "decimal",
+    }])
+    rows = decoder.decode([{"randomField": "1234.5678"}])
+
+    assert rows == ({'randomField': Decimal("1234.5678")},)
+
+
+def test_decode_datetime_2():
+    assert _decode_datetime('2020-07-01 12:13:14.150', False) == datetime(2020, 7, 1, 12, 13, 14)
