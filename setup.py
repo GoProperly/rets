@@ -51,7 +51,7 @@ setup(
     long_description=long_desc,
     author="GoProperly",
     author_email="info@goproperly.com",
-    url='https://github.com/properly.ca/rets',
+    url='https://github.com/goproperly/rets',
     classifiers=[
         'Intended Audience :: Developers',
         'Intended Audience :: Financial and Insurance Industry',
