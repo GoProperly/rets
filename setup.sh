@@ -2,7 +2,7 @@
 
 # Create a virtual environment and install python dependencies
 if [ ! -d "venv" ]; then
-    python3 -m venv venv
+    python3.6 -m venv venv
 fi
 
 # Turn on the virtual environment
