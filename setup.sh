@@ -9,4 +9,4 @@ fi
 source venv/bin/activate
 
 # Install dependencies
-python setup.py -q install
+python3.6 setup.py -q install
