@@ -15,6 +15,7 @@ install_requires = [
     'udatetime==0.0.16',
     'docopts',
     'lxml>=4.3.0',
+    'twine==1.11.0',
 ]
 
 setup_requires = [
