@@ -1,14 +1,14 @@
-[![PyPI Version](https://badge.fury.io/py/rets-python.svg)](https://pypi.python.org/pypi/rets-python)
-[![Build Status](https://travis-ci.org/opendoor-labs/rets.svg?branch=master)](https://travis-ci.org/goproperly/rets)
-[![Python Version](https://img.shields.io/pypi/pyversions/rets-python.svg)](https://pypi.python.org/pypi/rets-python)
-[![License](https://img.shields.io/pypi/l/rets-python.svg)](https://pypi.python.org/pypi/rets-python)
+[![PyPI Version](https://badge.fury.io/py/properly-rets.svg)](https://pypi.python.org/pypi/properly-rets)
+[![Build Status](https://travis-ci.org/goproperly/rets.svg?branch=master)](https://travis-ci.org/goproperly/rets)
+[![Python Version](https://img.shields.io/pypi/pyversions/properly-rets.svg)](https://pypi.python.org/pypi/properly-rets)
+[![License](https://img.shields.io/pypi/l/properly-rets.svg)](https://pypi.python.org/pypi/properly-rets)
 
 # RETS Python 3 Client
 
 Python 3 client for the Real Estate Transaction Standard (RETS) Version 1.7.2. Supports Python 3.5 or later.
 
 ```
-pip install rets-python
+pip install properly-rets
 ```
 
 ## Example

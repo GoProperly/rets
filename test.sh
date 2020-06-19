@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-python setup.py -q test
+python3.6 setup.py -q test
